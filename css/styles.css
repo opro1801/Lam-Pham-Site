@@ -54,7 +54,8 @@ h3 {
 
 .third-container {
     text-align: center;
-    width: 400px;
+    width: 30%;
+    min-width: 250px;
     margin: 20px auto 40px auto;
 }
 
@@ -75,14 +76,16 @@ h3 {
 .development-container {
     margin: 50px auto 100px auto;
     text-align: left;
-    width: 700px;
+    width: 45%;
+    min-width: 230px;
 
 }
 
 .olympiad-container {
     margin: 50px auto 50px auto;
     text-align: left;
-    width: 700px;
+    width: 45%;
+    min-width: 230px;
 }
 
 .chillies {
@@ -171,3 +174,10 @@ h3 {
     margin: 0 auto 0 auto;
     position: absolute;
 } */
+
+.fifth-container {
+    width: fit-content;
+    margin: 0 auto 0 auto;
+    padding: 5px;
+    min-width: 180  px;
+}
